@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
+  "remoteUser": "root",
+  "runArgs": ["-p", "8081:8081"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vmware.vscode-boot-dev-pack",
+        "esbenp.prettier-vscode",
+        "vscjava.vscode-gradle",
+        "mhutchie.git-graph",
+        "vscjava.vscode-lombok",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
