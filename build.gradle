@@ -32,3 +32,11 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+processResources.dependsOn('copyProperties')
+
+tasks.register('copyProperties', Copy) {
+    from './test-submodule'
+    include "application.properties"
+    into 'src/main/resources'
+}
