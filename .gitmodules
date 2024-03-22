@@ -1,3 +1,4 @@
 [submodule "test-submodule"]
 	path = test-submodule
 	url = https://github.com/hsyoodev/test-submodule.git
+	branch = main
